@@ -1,0 +1,42 @@
+CSS Code........
+
+/* for Mobile distance----- 0 to 425px */
+@media screen and (max-width:425px) {
+    .row{
+        background-color: rgb(52, 220, 246);
+        flex-direction: column;
+    }
+}
+
+/* for Tab distance 425 to 768  */
+
+@media screen and (min-width:425px) and (max-width:768px){
+    .row{
+        background-color: rgb(246, 104, 52);
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content:flex-start;
+    }
+    .col{
+        width: 150px;
+    }
+}
+
+/* for laptop distance ---768 to 1024  */
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .row{
+        background-color: rgb(162, 246, 52);
+    }
+    .col{
+        width: 450px;
+    }
+}
+
+/* for big screen  */
+@media screen and (min-width:1024px) {
+    .row{
+        background-color: rgb(246, 52, 65);
+        flex-direction: column;
+    }
+
+}
